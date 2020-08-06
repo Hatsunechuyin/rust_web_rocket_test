@@ -1,0 +1,24 @@
+[development]
+address = "0.0.0.0"
+port = 7001
+#workers = [number of cpus * 2]
+keep_alive = 5
+log = "normal"
+#secret_key = [randomly generated at launch]
+limits = { forms = 32768 }
+#template_dir = "dev_templates/" 模板地址
+#assets_dir = "dev_assets/" 只定义参数
+assets_dir = "dev_assets/"
+
+[production]
+address = "0.0.0.0"
+port = 7000
+#workers = [number of cpus * 2]
+keep_alive = 5
+log = "critical"
+#secret_key = [randomly generated at launch]
+limits = { forms = 32768 }
+
+# 数据限制-默认情况下，火箭将窗体限制为 32KiB （32768 字节）
+[global.limits]
+forms = 131072
