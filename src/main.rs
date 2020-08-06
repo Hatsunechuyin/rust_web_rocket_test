@@ -20,7 +20,7 @@ fn todo() -> Json<ResponseForm> {
 
 // 捕获404接口
 #[catch(404)]
-fn not_found(req: &Request) -> Custom<Json<ResponseForm>> {
+fn not_found(_req: &Request) -> Custom<Json<ResponseForm>> {
     let mut not_found = ResponseForm::new();
     not_found.url_not_found();
     // Json(not_found)
@@ -45,22 +45,22 @@ impl Fairing for MyFairing {
             kind: Kind::Launch | Kind::Request | Kind::Response
         }
     }
-    // #[allow(unused_variables)]
+    #[allow(unused_variables)]
     fn on_request(&self, request: &mut Request, data: &Data) {
         println!("aaaaaaaaaaaa");
-        let Origin = Header::new("Access-Control-Allow-Origin", "http://localhost:9527");
-        let Headers = Header::new("Access-Control-Allow-Headers", "GET, POST, OPTIONS, DELETE, PUT");
-        let Methods = Header::new("Access-Control-Allow-Methods", "*");
-        request.add_header(Origin);
-        request.add_header(Headers);
-        request.add_header(Methods);
+        let origin = Header::new("Access-Control-Allow-Origin", "http://localhost:9527");
+        let headers = Header::new("Access-Control-Allow-Headers", "GET, POST, OPTIONS, DELETE, PUT");
+        let methods = Header::new("Access-Control-Allow-Methods", "*");
+        request.add_header(origin);
+        request.add_header(headers);
+        request.add_header(methods);
         println!("{:?}",request.headers())
     }
-    fn on_response(&self, request: &Request, response: &mut Response) {
-        println!("dadsadadadadadda");
-        println!("{:?}", request.headers());
-        let Origin = Header::new("aaaa", "dsdadad");
-        response.set_header(Origin);
+    fn on_response(&self, _request: &Request, _response: &mut Response) {
+        // println!("dadsadadadadadda");
+        // println!("{:?}", request.headers());
+        // let origin = Header::new("aaaa", "dsdadad");
+        // response.set_header(origin);
     }
 }
 // 测试返回json数据

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/src/error/ss/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cc32019-c59c-475c-bf29-c425a677b12f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="7bdp13c2" />
+  </component>
+  <component name="ProjectId" id="1fUanyW7jSeBrfRj8yO4cGaarDQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionI:/Primer/rust/rocket/hello-rocket/src/api/demo.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionI:/Primer/rust/rocket/hello-rocket/src/api/lib.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionI:/Primer/rust/rocket/hello-rocket/src/main.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionI:/Primer/rust/rocket/hello-rocket/src/utils/response_data.rs" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Primer\rust\rocket\hello-rocket" />
+      <recent name="I:\Primer\rust\rocket\hello-rocket\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo Command.Run hello-rocket">
+    <configuration name="Run hello-rocket" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package hello-rocket --bin hello-rocket" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test request::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rocket --lib request::tests" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run hello-rocket" />
+        <item itemvalue="Cargo Command.Test request::tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cc32019-c59c-475c-bf29-c425a677b12f" name="Default Changelist" comment="" />
+      <created>1596275295577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596275295577</updated>
+      <workItem from="1596275304928" duration="13538000" />
+      <workItem from="1596422314662" duration="11312000" />
+      <workItem from="1596441814419" duration="2680000" />
+      <workItem from="1596594575586" duration="3342000" />
+      <workItem from="1596680052020" duration="18665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596275532127">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="0" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596275532127" />
+    <state x="195" y="206" key="FileChooserDialogImpl" timestamp="1596697481352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="195" y="206" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596697481352" />
+    <state x="293" y="314" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596302824066" />
+    <state width="661" height="234" key="GridCell.Tab.0.bottom" timestamp="1596685943177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596685943177" />
+    <state width="979" height="477" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596302829853" />
+    <state width="661" height="234" key="GridCell.Tab.0.center" timestamp="1596685943177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596685943177" />
+    <state width="979" height="477" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596302829852" />
+    <state width="661" height="234" key="GridCell.Tab.0.left" timestamp="1596685943176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596685943176" />
+    <state width="979" height="477" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596302829852" />
+    <state width="661" height="234" key="GridCell.Tab.0.right" timestamp="1596685943177">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596685943177" />
+    <state width="979" height="477" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596302829853" />
+    <state x="385" y="98" width="596" height="532" key="find.popup" timestamp="1596704187167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="98" width="596" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1596704187167" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596680998728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596680998728" />
+  </component>
+</project>
